@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+revoverflow-frontend/node_modules
+revoverflow-frontend/.pnp
+revoverflow-frontend/.pnp.js
+
+# testing
+revoverflow-frontend/coverage
+
+# production
+revoverflow-frontend/build
+
+# misc
+revoverflow-frontend/.DS_Store
+revoverflow-frontend/.env.local
+revoverflow-frontend/.env.development.local
+revoverflow-frontend/.env.test.local
+revoverflow-frontend/.env.production.local
+
+revoverflow-frontend/npm-debug.log*
+revoverflow-frontend/yarn-debug.log*
+revoverflow-frontend/yarn-error.log*
+
+# firebase
+**/915-alec-batson.json
+
+revoverflow-backend/.metadata/
+revoverflow-backend/.settings
+revoverflow-backend/target
+revoverflow-backend/RemoteSystemsTempFiles
+revoverflow-backend/bin
